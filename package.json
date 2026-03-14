@@ -17,6 +17,8 @@
     "express": "^5.2.1",
     "langchain": "^1.2.32",
     "mongoose": "^9.3.0",
-    "readline-sync": "^1.4.10"
+    "nodemailer": "^8.0.2",
+    "readline-sync": "^1.4.10",
+    "zod": "^4.3.6"
   }
 }
