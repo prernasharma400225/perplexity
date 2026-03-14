@@ -25,7 +25,7 @@ const searchTool = tool(
             })
         })
         const data = await res.json()
-        return JSON.stringify(data.results)
+        return data.results.map(result => `${result.title}: ${result.link}`).join("\n")
     },
     {
         name: "searchInternet",
